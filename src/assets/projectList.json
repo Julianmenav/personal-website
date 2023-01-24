@@ -1,38 +1,38 @@
 [
   {
-    "picture": "/img/twitterAppCapture.png",
+    "picture": "/img/twitter.png",
     "name": "Twitter Bot Downloader",
-    "description": "Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API",
+    "description": "Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API. I wanted to do it for my own use and so I do very often.",
     "links": [
       "https://github.com/Julianmenav/twitter-video-downloader",
       "https://julianmenav.github.io/twitter-video-downloader/"
     ]
   },
   {
-    "picture": "/img/twitterAppCapture.png",
-    "name": "Twitter Bot Downloader",
-    "description": "Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API",
+    "picture": "/img/cardGame.png",
+    "name": "Memory Card Game",
+    "description": "In this game you must memorize the position of the cards and match them. My sister gave me this idea when I wanted to make a simple game with React.",
     "links": [
-      "https://github.com/Julianmenav/twitter-video-downloader",
-      "https://julianmenav.github.io/twitter-video-downloader/"
+      "https://github.com/Julianmenav/memory-game",
+      "https://julianmenav.github.io/memory-game/"
     ]
   },
   {
-    "picture": "/img/twitterAppCapture.png",
-    "name": "Twitter Bot Downloader",
-    "description": "Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API",
+    "picture": "/img/pomodoro.png",
+    "name": "Pomodoro technique Timer",
+    "description": "You can use this timer to study following the pomodoro technique setting the time in intervals of work and rest.",
     "links": [
-      "https://github.com/Julianmenav/twitter-video-downloader",
-      "https://julianmenav.github.io/twitter-video-downloader/"
+      "https://github.com/Julianmenav/pomodoro-clock",
+      "https://julianmenav.github.io/pomodoro-clock/"
     ]
   },
   {
-    "picture": "/img/twitterAppCapture.png",
-    "name": "Twitter Bot Downloader",
-    "description": "Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API",
+    "picture": "/img/chat.png",
+    "name": "Web Sockets Chat",
+    "description": "Just write an user name and a room number to talk with all the others within the same room.",
     "links": [
-      "https://github.com/Julianmenav/twitter-video-downloader",
-      "https://julianmenav.github.io/twitter-video-downloader/"
+      "https://github.com/Julianmenav/websockets-chat",
+      "https://julianmenav.github.io/websockets-chat/"
     ]
   }
 ]
