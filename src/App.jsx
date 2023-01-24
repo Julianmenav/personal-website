@@ -1,42 +1,57 @@
-import { useState } from 'react'
-import './App.css'
+import { useEffect, useState } from "react";
+import "./App.css";
+import ProjectCard from "./components/projectCard/ProjectCard";
 
 function App() {
-
   return (
-    <div className="App">
-      <div id="movieBackground">
-    <video preload autoplay muted loop id="vid">
-      <source src="/video.mp4" type="video/mp4"/>
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <header id="navBar">
-    <div>
-      <div>MENU 1</div>
-      <div>MENU 2</div>
-      <div>MENU 3</div>
+    <div className="App ">
+      <div className="container py-20 px-2 max-w-[430px] sm:max-w-[560px] lg:max-w-[900px] xl:max-w-[1300px] m-auto">
+        <p className="text-[50px] font-roboto italic">PROJECTS</p>
+        <p className="text-2xl xl:w-2/3 mt-4  font-worksans">
+          Some of my projects done during my learning, you can find the
+          rest on my github.
+        </p>
+        <div id="portfolio" className="flex flex-wrap gap-y-8 gap-x-6 mt-9 justify-center">
+          <ProjectCard
+            picture="/img/twitterAppCapture.png"
+            name="Twitter Bot Downloader"
+            description="Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API"
+            links={[
+              "https://github.com/Julianmenav/twitter-video-downloader",
+              "https://julianmenav.github.io/twitter-video-downloader/",
+            ]}
+          />
+          <ProjectCard
+            picture="/img/twitterAppCapture.png"
+            name="Twitter Bot Downloader"
+            description="Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API"
+            links={[
+              "https://github.com/Julianmenav/twitter-video-downloader",
+              "https://julianmenav.github.io/twitter-video-downloader/",
+            ]}
+          />
+          <ProjectCard
+            picture="/img/twitterAppCapture.png"
+            name="Twitter Bot Downloader"
+            description="Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API"
+            links={[
+              "https://github.com/Julianmenav/twitter-video-downloader",
+              "https://julianmenav.github.io/twitter-video-downloader/",
+            ]}
+          />
+          <ProjectCard
+            picture="/img/twitterAppCapture.png"
+            name="Twitter Bot Downloader"
+            description="Web App that makes easy to download videos from the social network Twitter. It uses the twitter official API"
+            links={[
+              "https://github.com/Julianmenav/twitter-video-downloader",
+              "https://julianmenav.github.io/twitter-video-downloader/",
+            ]}
+          />
+        </div>
+      </div>
     </div>
-    <div>
-      <div>Registro</div>
-      <div>Login</div>
-    </div>
-  </header>
-  <div id="frontPage">
-    <div id="textBox">
-      <p id="title">Practica 3</p>
-      <p>Insertar vídeo de fondo</p>
-      <button>Entrar</button>
-    </div>
-  </div>
-  <div id="content">
-    <p class="contentTitle">Cuerpo página</p>
-    <p class="sampleText">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
-  </div>
-    </div>
-  )
+  );
 }
 
-export default App
+export default App;
