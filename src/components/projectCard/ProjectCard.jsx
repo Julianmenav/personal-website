@@ -1,5 +1,4 @@
 import React from "react";
-import githubIcon from "/img/githubIcon.svg";
 import "./styles.css";
 
 export default function ProjectCard({ name, picture, description, links }) {
