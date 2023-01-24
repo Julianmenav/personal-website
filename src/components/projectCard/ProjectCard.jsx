@@ -8,9 +8,9 @@ export default function ProjectCard({ name, picture, description, links }) {
       style={{
         backgroundImage: `url(${picture})`,
       }}
-      className="relative bg-cover bg-center w-[400px] rounded-xl shadow-xl overflow-hidden "
+      className="relative bg-cover bg-center w-[400px] shadow-xl overflow-hidden "
     >
-      <div id="gradientEffect" className="z-10" />
+      <div id="mask" className="" />
       <div id="details" className="z-50">
         <div className="h-full flex flex-col p-6">
           <p className="font-bold text-2xl font-roboto">{name}</p>
