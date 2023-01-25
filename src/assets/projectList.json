@@ -34,5 +34,14 @@
       "https://github.com/Julianmenav/pomodoro-clock",
       "https://julianmenav.github.io/pomodoro-clock/"
     ]
+  },
+  {
+    "picture": "/img/calculator.png",
+    "name": "Scientific calculator",
+    "description": "One of the projects done during class.",
+    "links": [
+      "https://github.com/Julianmenav/Projects-DAW2/tree/production/calculadora",
+      "https://julianmenav.github.io/Projects-DAW2/calculadora/index.html"
+    ]
   }
 ]
