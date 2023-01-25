@@ -20,7 +20,7 @@
   {
     "picture": "/img/cardGame.png",
     "name": "Memory Card Game",
-    "description": "In this game you must memorize the position of the cards and match them. My sister gave me this idea when I wanted to make a simple game with React.",
+    "description": "In this game you must memorize the position of the cards to match them.",
     "links": [
       "https://github.com/Julianmenav/memory-game",
       "https://julianmenav.github.io/memory-game/"

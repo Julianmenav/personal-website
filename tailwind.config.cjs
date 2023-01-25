@@ -10,7 +10,9 @@ module.exports = {
       '2xl': '1900px',
       'xl': '1400px',
       'lg': '980px',
-      'sm': '640px'
+      'sm': '640px',
+      'xs': '400px',
+      '2xs': '345px'
     },
     fontFamily: {
       'worksans': ['Work Sans', 'sans-serif'],
