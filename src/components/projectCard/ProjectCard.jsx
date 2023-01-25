@@ -27,13 +27,13 @@ export default function ProjectCard({ name, picture, description, links }) {
                   <p className="text-xs xs:text-sm font-worksans">View code</p>
                 </button>
               </a>
-              {links[1] ? (
+              {links[1] && (
                 <a href={links[1]} target="_blank">
                   <button className="text-black  w-24 py-1 bg-white rounded-full text-center border-2  hover:bg-transparent hover:text-white border-white">
                     <p className="text-xs xs:text-sm font-worksans">Try</p>
                   </button>
                 </a>
-              ) : null}
+              )}
             </div>
           </div>
         </div>
