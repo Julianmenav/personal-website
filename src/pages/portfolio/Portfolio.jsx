@@ -15,13 +15,15 @@ export default function Portfolio() {
           id="portfolio"
           className="flex flex-wrap gap-y-8 gap-x-6 mt-9 justify-center"
         >
-          {projectList.map(project => {
+          {projectList.map((project, id) => {
             return (
               <ProjectCard
+              key={id}
               picture={project.picture}
               name={project.name}
               description={project.description}
               links={project.links}
+              technologies={project.technologies}
             />
             )
           })}

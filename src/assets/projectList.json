@@ -6,7 +6,8 @@
     "links": [
       "https://github.com/Julianmenav/twitter-video-downloader",
       "https://julianmenav.github.io/twitter-video-downloader/"
-    ]
+    ],
+    "technologies": ["React", "Tailwind", "Express", "Node"]
   },
   {
     "picture": "/img/chat.png",
@@ -15,7 +16,8 @@
     "links": [
       "https://github.com/Julianmenav/websockets-chat",
       "https://julianmenav.github.io/websockets-chat/"
-    ]
+    ],
+    "technologies": ["React", "CSS", "Express", "Node"]
   },
   {
     "picture": "/img/cardGame.png",
@@ -24,7 +26,8 @@
     "links": [
       "https://github.com/Julianmenav/memory-game",
       "https://julianmenav.github.io/memory-game/"
-    ]
+    ],
+    "technologies": ["React", "CSS"]
   },
   {
     "picture": "/img/pomodoro.png",
@@ -33,7 +36,8 @@
     "links": [
       "https://github.com/Julianmenav/pomodoro-clock",
       "https://julianmenav.github.io/pomodoro-clock/"
-    ]
+    ],
+    "technologies": ["React", "Tailwind"]
   },
   {
     "picture": "/img/calculator.png",
@@ -42,6 +46,7 @@
     "links": [
       "https://github.com/Julianmenav/Projects-DAW2/tree/production/calculadora",
       "https://julianmenav.github.io/Projects-DAW2/calculadora/index.html"
-    ]
+    ],
+    "technologies": ["HTML", "CSS", "Javascript"]
   }
 ]
