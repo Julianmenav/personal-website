@@ -2,6 +2,8 @@
 const colors = {
   black: 'black',
   white: 'white',
+  Astro: '#ff5d01',
+  Typescript: '#2f74c0',
   transparent: 'transparent',
   current: 'currentColor',
   React: "#61dafb",
@@ -15,9 +17,9 @@ const colors = {
 }
 
 module.exports = {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: {
-    extend: {},
+	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+	theme: {
+		extend: {},
     screens: {
       "2xl": "1900px",
       xl: "1400px",
@@ -25,7 +27,7 @@ module.exports = {
       sm: "640px",
       xs: "400px",
       "2xs": "345px",
-    },
+	},
     fontFamily: {
       worksans: ["Work Sans", "sans-serif"],
       roboto: ["'Roboto Condensed'", "sans-serif"],
@@ -33,5 +35,5 @@ module.exports = {
     colors: colors,
   },
   safelist: Object.keys(colors).map(color => `text-${color}`),
-  plugins: [],
-};
+	plugins: [],
+}
